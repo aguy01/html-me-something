@@ -1,0 +1,72 @@
+body {
+    background-color: #f9fcfc;
+    opacity: 0.9;
+	width: 100%;
+	max-width: 1224px;
+	margin: auto;
+    background-image: url("images/background_stamp.jpg");
+    background-attachment: fixed;
+	font-size: 18px;
+}
+
+h3 {
+    font-size: 60px;
+    color: blue;
+}
+
+header,
+main,
+footer {
+
+	font-size: 20px;
+    background-color: #f9fcfc;
+    opacity: 0.9;
+}
+
+header {
+    padding: 10px 20px 30px 0px;
+
+}
+
+.fancy {
+
+     font-family:cursive;
+     font-size: 1.5em;
+}
+
+
+#steven {
+
+    font-family: arial;
+}
+
+figure {
+		text-align: left;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
+
+footer div p { font-size: 14px; color: black;}
+
+
+div{
+    font: 40px bold Garamond, serif;
+    color: blue;
+    background-color: #ffe6ff;
+
+}
